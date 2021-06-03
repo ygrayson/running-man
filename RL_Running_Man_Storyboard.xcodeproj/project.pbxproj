@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05B6215265D0E6400FEF21B /* agent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D05B6214265D0E6400FEF21B /* agent.mp4 */; };
 		D0AD0C5926575A3700148E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD0C5826575A3700148E10 /* AppDelegate.swift */; };
 		D0AD0C5B26575A3700148E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD0C5A26575A3700148E10 /* SceneDelegate.swift */; };
 		D0AD0C5D26575A3700148E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD0C5C26575A3700148E10 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		D0AD0C6526575A3900148E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AD0C6326575A3900148E10 /* LaunchScreen.storyboard */; };
 		D0AD0C7026575A3A00148E10 /* RL_Running_Man_StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD0C6F26575A3A00148E10 /* RL_Running_Man_StoryboardTests.swift */; };
 		D0AD0C7B26575A3A00148E10 /* RL_Running_Man_StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD0C7A26575A3A00148E10 /* RL_Running_Man_StoryboardUITests.swift */; };
+		D0AD0C8926577DD700148E10 /* video_1.mov in Resources */ = {isa = PBXBuildFile; fileRef = D0AD0C8826577DD700148E10 /* video_1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D05B6214265D0E6400FEF21B /* agent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = agent.mp4; path = RL_Running_Man_Storyboard/videos/agent.mp4; sourceTree = "<group>"; };
 		D0AD0C5526575A3700148E10 /* RL_Running_Man_Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RL_Running_Man_Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AD0C5826575A3700148E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0AD0C5A26575A3700148E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		D0AD0C7626575A3A00148E10 /* RL_Running_Man_StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RL_Running_Man_StoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AD0C7A26575A3A00148E10 /* RL_Running_Man_StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RL_Running_Man_StoryboardUITests.swift; sourceTree = "<group>"; };
 		D0AD0C7C26575A3A00148E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AD0C8826577DD700148E10 /* video_1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video_1.mov; path = RL_Running_Man_Storyboard/videos/video_1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		D0AD0C4C26575A3700148E10 = {
 			isa = PBXGroup;
 			children = (
+				D05B6214265D0E6400FEF21B /* agent.mp4 */,
+				D0AD0C8826577DD700148E10 /* video_1.mov */,
 				D0AD0C5726575A3700148E10 /* RL_Running_Man_Storyboard */,
 				D0AD0C6E26575A3A00148E10 /* RL_Running_Man_StoryboardTests */,
 				D0AD0C7926575A3A00148E10 /* RL_Running_Man_StoryboardUITests */,
@@ -233,6 +239,8 @@
 			files = (
 				D0AD0C6526575A3900148E10 /* LaunchScreen.storyboard in Resources */,
 				D0AD0C6226575A3900148E10 /* Assets.xcassets in Resources */,
+				D0AD0C8926577DD700148E10 /* video_1.mov in Resources */,
+				D05B6215265D0E6400FEF21B /* agent.mp4 in Resources */,
 				D0AD0C6026575A3700148E10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +445,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 8UCMBZCH48;
 				INFOPLIST_FILE = RL_Running_Man_Storyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +465,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 8UCMBZCH48;
 				INFOPLIST_FILE = RL_Running_Man_Storyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
